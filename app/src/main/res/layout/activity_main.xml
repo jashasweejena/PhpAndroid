@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Button to view all products-->
+
+    <Button
+        android:id="@+id/btnViewProducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Products"
+        android:layout_marginTop="25dp"/>
+
+    <!-- Button to create a new product -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add a product"
+        android:id="@+id/btnCreateProduct"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
